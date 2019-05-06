@@ -104,3 +104,21 @@ nav ul {
 #menu_hamburger a:hover {
   color: #ffc107;
 }
+
+@media all and (max-width: 1000px) {
+  #header_partie_jaune {
+    background-image: url(images/header_titre_small.png);
+    background-size: cover;
+  }
+
+  h1 {
+    color: rgba(0,0,0,1);
+    margin: auto;
+  }
+
+  #header_titre {
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+  }
+}
