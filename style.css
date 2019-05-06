@@ -26,6 +26,7 @@ header {
 
 nav {
   position: fixed;
+  z-index: 99;
 }
 
 nav a:hover {
@@ -41,13 +42,65 @@ nav ul {
   width: 50%;
 }
 
-#logo {
+#logo_container {
   width: 250px;
   height: 108px;
   background-image: url(images/logo_container.png);
-  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo {
+  margin-bottom: 30px;
 }
 
 #titre_container h1{
   text-align: center;
+}
+
+#bouton_hamburger {
+  color: black;
+  text-align: center;
+  margin-left: 15px;
+  font-size: 1.1em;
+}
+
+.showed {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: height 0.3s ease-out;
+}
+
+.hidden {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-out;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+}
+
+#menu_hamburger li {
+  height: 50px;
+  line-height: 40px;
+  text-align: center;
+  border-bottom: 2px solid #ffc107;
+  width: 200px;
+}
+
+#menu_hamburger a {
+  color: white;
+}
+
+#menu_hamburger a:hover {
+  color: #ffc107;
 }
