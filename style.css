@@ -1,1 +1,10 @@
-a
+/*.image_témoignage {
+  width: 470px;
+  height: 313px;
+}*/
+.card {
+  margin-right: 8%;
+}
+.temoignage{
+  margin-left: 8%;
+}
