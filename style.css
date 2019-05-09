@@ -1,3 +1,137 @@
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/header_test.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header_partie_jaune {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/header_titre.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header_titre {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  height: 100%;
+  width: 40%;
+}
+
+nav {
+  position: fixed;
+  z-index: 99;
+}
+
+nav a:hover {
+  color: #ffc107;
+}
+
+nav li {
+  width: 25%;
+  text-align: center;
+}
+
+nav ul {
+  width: 50%;
+}
+
+#logo_container {
+  width: 250px;
+  height: 108px;
+  background-image: url(images/logo_container.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo {
+  margin-bottom: 30px;
+}
+
+#titre_container h1{
+  text-align: center;
+}
+
+#bouton_hamburger {
+  color: black;
+  text-align: center;
+  margin-left: 15px;
+  font-size: 1.1em;
+}
+
+.showed {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: height 0.3s ease-out;
+}
+
+.hidden {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-out;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+}
+
+#menu_hamburger li {
+  height: 50px;
+  line-height: 40px;
+  text-align: center;
+  border-bottom: 2px solid #ffc107;
+  width: 200px;
+}
+
+#menu_hamburger a {
+  color: white;
+}
+
+#menu_hamburger a:hover {
+  color: #ffc107;
+}
+
+@media all and (max-width: 1000px) {
+  #header_partie_jaune {
+    background-image: url(images/header_titre_small.png);
+    background-size: cover;
+  }
+
+  h1 {
+    color: rgba(0,0,0,1);
+    margin: auto;
+  }
+
+  #header_titre {
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 #bouton_flottant {
   position:fixed;
   float:right;

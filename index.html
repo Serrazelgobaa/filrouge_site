@@ -1,30 +1,78 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html>
 <head>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="style.css"/>
-  <!--Import materialize.css-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta charset="utf-8">
-  <meta name="keywords" content="">
-  <meta name="robots" content="index, follow">
-  <meta name="description" content="">
-  <meta name="author" lang="fr" content="">
-  <meta name="copyright" content="">
-  <meta name="identifier-url" content="http://www.balisesmeta.com/">
+<link type="text/css" rel="stylesheet" href="style.css"/>
 
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="utf-8">
+<meta name="keywords" content="">
+<meta name="robots" content="index, follow">
+<meta name="description" content="">
+<meta name="author" lang="fr" content="">
+<meta name="copyright" content="">
+<meta name="identifier-url" content="http://www.balisesmeta.com/">
 
-
-  <title></title>
+<title></title>
 </head>
 
-  <body>
-    <a class="btn-floating btn-large waves-effect waves-light black" id="bouton_flottant"><i class="material-icons">arrow_upward</i></a>
+<body>
+
+<header>
+<div id="header_partie_jaune">
+  <nav class="black">
+    <ul id="nav-mobile" class="left hide-on-med-and-down">
+    <li><a href="#">Accueil</a></li>
+    <li><a href="#">Les Études</a></li>
+    <li><a href="metiers.html#métiers">Les Métiers</a></li>
+  </ul>
+  <div id="logo_container" class="brand-logo center">
+    <a href="#"><img src="images/SFLogoBlack.png" class="hide-on-med-and-down" id="logo"/></a>
+    <a href="#" data-target="mobile-links" class="sidenav-trigger"><i class="material-icons" id="bouton_hamburger">menu</i></a>
+  </div>
+  <ul id="nav-mobile" class="right hide-on-med-and-down">
+    <li class="right"><a href="#">FAQ</a></li>
+    <li class="right"><a href="#">Témoignages</a></li>
+    <li class="right"><a href="#">Entrepreneuriat</a></li>
+  </ul>
+  </nav>
+
+  <div id="menu_hamburger" class="hide-on-large-only hidden">
+    <ul>
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#">Les Études</a></li>
+      <li><a href="metiers.html#métiers">Les Métiers</a></li>
+      <li><a href="#">Entrepreneuriat</a></li>
+      <li><a href="#">Témoignages</a></li>
+      <li><a href="#">FAQ</a></li>
+    </ul>
+  </div>
+
+  <div id="header_titre">
+    <div id="titre_container">
+      <h1>Décodez votre futur !</h1>
+    </div>
+  </div>
+
+</div>
+</header>
+
+
+
+
+<!--JavaScript at end of body for optimized loading-->
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <script src="script.js"></script>
+
+
+    <a class="btn-floating btn-large waves-effect waves-light black" id="bouton_flottant" href="#"><i class="material-icons">arrow_upward</i></a>
     <section id="métiers" class="valign-wrapper">
 
       <div class="container">
@@ -37,7 +85,7 @@
         <div class="modal-content">
 
         <div class="modal-footer #ffc107 amber">
-            <h4 class="job">DEVELLOPEUR FULLSTACK   </h4>
+            <h4 class="job">DEVELOPPEUR FULLSTACK   </h4>
         </div>
 
         <p>Il peut travailler en tant que salarié ou en freelance. A partir des besoins de son client ou de l’entreprise qui l’emploie, le développeur Full stack a pour missions de bâtir un site Internet parfaitement fonctionnel et opérationnel. </br>
@@ -59,7 +107,7 @@
         <div class="modal-content">
 
         <div class="modal-footer #ffc107 amber">
-            <h4 class="job">INTEGRATEUR OU DELLOPEUR FRONT-END </h4>
+            <h4 class="job">INTEGRATEUR OU DEVELOPPEUR FRONT-END </h4>
           </div>
 
         <p>Comme l’intitulé de son poste l’indique, l’intégrateur web (également appelé développeur front ou intégrateur HTML) intègre les pages d’un site Internet en « traduisant » les projets de l’équipe graphique en langage informatique (le HTML ou XHTML) dans le respect des normes et standards en vigueur (W3C notamment).</br>
@@ -111,7 +159,7 @@
           <p>Le Développeur WordPress est la personne qui maîtrise WordPress, le CMS qui permet de créer un site Internet en toute simplicité, via une interface d’administration intuitive. Compétents et au fait des techniques performantes dans le domaine de la conception et la maintenance de site, l’équipe de Simply Design possède une parfaite maîtrise de cet outil CMS</p>
           PREREQUIS: Il n’existe pas de diplôme(s) de Développeur WordPress. Votre compétence seule fera la différence. Beaucoup de développeur Wordpress sont autodidactes.</br>
           SALAIRE: Le salaire moyen pour les emplois Developpeur Wordpress au France est de 2662 euros brut par mois.</br>
-  
+
         </div>
         <div class="modal-footer #ffc107 amber">
         </div>
