@@ -1,12 +1,12 @@
+
+
 footer {
   background-color:#000;
   color:#fff;
   width:100%;
-  margin:0;
-  padding:0;
   position: absolute;
   bottom: 0px;
-  height: 200px;
+  min-height: 230px;
   padding-top: 50px;
 }
 
@@ -15,10 +15,8 @@ background-color:black;
 }
 .grid {
 display:grid;
-grid-template-columns:2fr 1fr 1fr 1fr 1fr;
-grid-template-rows: 100px;
-grid-column-gap: 20px;
-grid-row-start: 1 span 2;
+grid-template-columns:2fr 2fr 2fr 2fr;
+grid-column-gap: 5px;
 }
 
 footer a {
@@ -27,4 +25,13 @@ footer a {
 
 footer a:hover {
   color: #ffc107;
+}
+.grid {
+  /*grid déclaration styles*/
+}
+
+@media only screen and all  {
+  .grid {
+    /*grid declaration styles*/
+  }
 }
